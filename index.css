@@ -1,0 +1,108 @@
+body{
+	background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 50%;
+}
+
+#prodiv{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#probut{
+	font-family: 'Lobster';
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+}
+
+#probut:hover{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+.well{
+	width: 50%;
+	opacity: .90;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color:black;
+	text-align: center;
+}
+
+#title{
+	font-family: "Times New Roman";
+	font-size: 50px;
+	color:black;
+}
+
+img{
+	width:75px;
+	height:75px;
+	margin:20px;
+}
+
+#searchbutton{
+	margin:20px;
+	border-style: none;
+	font-size: 20px;
+	padding:10px;
+	font-family: "Times New Roman";
+}
+
+#searchbutton:hover{
+	background-color: darkgrey;
+	color:white;
+}
+
+#searchbutton:active{
+	background-color: lightgrey;
+	color:black;
+}
+
+.randa{
+	font-family: "Times New Roman";
+}
+
+#mag:hover {
+    -ms-transform: rotate(25deg); 
+    -ms-transform-origin: 100% 100%; 
+    -webkit-transform: rotate(25deg); 
+    -webkit-transform-origin: 100% 100%; 
+    transform: rotate(25deg);
+    transform-origin: 100% 100%;
+}
+
+#mag:active{
+    -ms-transform: rotate(0deg); 
+    -webkit-transform: rotate(0deg); 
+    transform: rotate(0deg);
+}
+
+#sbox{
+	font-size: 20px;
+}
+
+#results{
+	position:relative;
+	top:500px;
+	width:50%;
+	margin: 0 auto;
+}
+
+.pages{
+	background-color: #CACFD2;
+	color:black;
+	border-radius: 5px;
+}
